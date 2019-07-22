@@ -1,0 +1,48 @@
+{
+	"user_a": {"parent": "none", "children": ["user_b", "user_c"],
+				"matrix": [
+					[0.1, 0.1, 0.0],
+					[0.0, 0.1, 0.0],
+					[0.1, 0.0, 0.0]
+				]
+	},
+	"user_b": {"parent": "user_a", "children": ["user_d"],
+				"matrix": [
+					[0.1, 0.1, 0.0],
+					[0.0, 0.1, 0.0],
+					[0.1, 0.0, 0.0]
+				]
+	},
+	"user_c": {"parent": "user_a", "children": ["user_e", "user_f"],
+				"matrix": [
+					[0.1, 0.1, 0.0],
+					[0.0, 0.1, 0.0],
+					[0.1, 0.0, 0.0]
+				]
+	},
+	"user_d": {"parent": "user_b", "children": "none",
+				"matrix": [
+					[0.1, 0.1, 0.0],
+					[0.0, 0.1, 0.0],
+					[0.1, 0.0, 0.0]
+				]
+	},
+	"user_e": {"parent": "user_c", "children": "none",
+				"matrix": [
+					[0.1, 0.1, 0.0],
+					[0.0, 0.1, 0.0],
+					[0.1, 0.0, 0.0]
+				]
+	},
+	"user_f": {"parent": "user_c", "children": "none",
+				"matrix": [
+					[0.1, 0.1, 0.0],
+					[0.0, 0.1, 0.0],
+					[0.1, 0.0, 0.0]
+				]
+	}
+
+}
+
+
+
